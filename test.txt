@@ -1,0 +1,40 @@
+// // This file is just for testing/messing around.
+
+// package main
+
+// import (
+// 	"fmt"
+// 	"regexp"
+// 	"strings"
+// )
+
+// var site string = `https://www.aozora.gr.jp`
+
+// func main() {
+// 	a := `yo ablsf
+// 	sfjksj <ol>
+// 	<li><a href="../go here">ようこそ</a></li>
+// 	<li><a href="../go there">よ</a></li>
+// 	<li><a href="../go over there">そ</a></li>
+// 	</ol>
+// 	<h2>HERE WE GO</h2>`
+// 	sakuhin := make(map[string]string)
+
+// 	// Get the names of the works: <a href....>WN</a>
+// 	regWN := regexp.MustCompile(`\">.*?\</a>`)
+// 	resWN := regWN.FindAllString(a, -1)
+// 	// Get the corresponding links to those works: <a href="../LINK">
+// 	regL := regexp.MustCompile(`\".*?\"`)
+// 	resL := regL.FindAllString(a, -1)
+// 	for i := 0; i < len(resWN); i++ {
+// 		wn := strings.Trim(resWN[i], "\">") // Get rid of tag elements.
+// 		wn = strings.Trim(wn, "</a>")
+
+// 		addr := strings.Trim(resL[i], "\"") // Strip trailing "
+// 		addr = strings.Trim(addr, "..\"")   // Strip leading .."
+
+// 		sakuhin[wn] = site + addr
+// 	}
+
+// 	fmt.Println(sakuhin)
+// }

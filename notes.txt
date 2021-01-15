@@ -1,0 +1,2 @@
+Where I found the regexp I needed:
+https://www.golangprograms.com/regular-expression-to-get-a-string-between-parentheses-in-golang.html
