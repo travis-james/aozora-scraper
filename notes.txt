@@ -3,3 +3,6 @@ https://www.golangprograms.com/regular-expression-to-get-a-string-between-parent
 
 Convert response body to string:
 https://stackoverflow.com/questions/38673673/access-http-response-as-string-in-go
+
+Unzipping JP zipfiles.
+unzip -O shift-jis fire.zip

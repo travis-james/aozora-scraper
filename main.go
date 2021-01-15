@@ -2,79 +2,59 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"io"
+	"log"
 	"net/http"
-	"regexp"
-	"strings"
+
+	"golang.org/x/net/html"
 )
 
 var site string = `https://www.aozora.gr.jp`
 
-/*
-* use http.Get(URL) to get bytes of file from url
-* create an empty file using os.Create
-* use io.Copy to copy downloaded bytes to file created.
-*
-* unzip -O shift-jis fire.zip
- */
-func main() {
-	// Go to author page.
-	resp, err := http.Get("https://www.aozora.gr.jp/index_pages/person20.html")
+// fetchHTML takes in a url and returns the responses body.
+func fetchHTML(url string) io.ReadCloser {
+	resp, err := http.Get(url)
 	if err != nil {
-		panic(err)
+		log.Fatalf("Error when fetching URL: %v\n", err)
 	}
-	defer resp.Body.Close()
-
-	body := respToString(resp)
-	mymap := makeMap(body)
-	for k, v := range mymap {
-		fmt.Println(k, v)
-	}
-
-	// zip, err := os.Create("blep.html")
-	// if err != nil {
-	// 	panic(err)
-	// }
-	// defer zip.Close()
-
-	// b, err := io.Copy(zip, resp.Body)
-	// if err != nil {
-	// 	panic(err)
-	// }
-
-	// fmt.Println("File size: ", b)
+	return resp.Body
 }
 
-func respToString(resp *http.Response) string {
-	// Convert the response body to a string.
-	if resp.StatusCode == http.StatusOK {
-		bodyBytes, err := ioutil.ReadAll(resp.Body)
-		if err != nil {
-			panic(err)
+func main() {
+	// Go to author page and get the HTML response.
+	body := fetchHTML("https://www.aozora.gr.jp/index_pages/person20.html")
+	defer body.Close()
+
+	tokenizer := html.NewTokenizer(body)
+	for {
+		tokenType := tokenizer.Next()
+
+		// If an error token, it's the end of the file, stop computing.
+		if tokenType == html.ErrorToken {
+			err := tokenizer.Err()
+			if err == io.EOF {
+				break
+			}
+			// Otherwise the html is malformed, quit it.
+			log.Fatalf("error tokenizing HTML: %v", tokenizer.Err())
 		}
-		bodystr := string(bodyBytes)
-		return bodystr
+
+		//process the token according to the token type...
+		//if this is a start tag token...
+		if tokenType == html.StartTagToken {
+			//get the token
+			token := tokenizer.Token()
+			//if the name of the element is "title"
+			if "title" == token.Data {
+				//the next token should be the page title
+				tokenType = tokenizer.Next()
+				//just make sure it's actually a text token
+				if tokenType == html.TextToken {
+					//report the page title and break out of the loop
+					fmt.Println(tokenizer.Token().Data)
+					break
+				}
+			}
+		}
 	}
-	return ""
-}
-
-func makeMap(ps string) map[string]string {
-	sakuhin := make(map[string]string)
-
-	// Get the names of the works: <a href....>WN</a>
-	regWN := regexp.MustCompile(`\">.*?\</a>`)
-	resWN := regWN.FindAllString(ps, -1)
-	// Get the corresponding links to those works: <a href="../LINK">
-	regL := regexp.MustCompile(`\".*?\"`)
-	resL := regL.FindAllString(ps, -1)
-	for i := 0; i < len(resWN); i++ {
-		wn := strings.Trim(resWN[i], "\">") // Get rid of tag elements.
-		wn = strings.Trim(wn, "</a>")
-
-		addr := strings.Trim(resL[i], "\"") // Strip trailing "
-		addr = strings.Trim(addr, "..\"")   // Strip leading .."
-
-		sakuhin[wn] = site + addr
-	}
-	return sakuhin
 }
