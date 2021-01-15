@@ -39,3 +39,20 @@ func main() {
 	}
 
 }
+
+// CREDIT: https://www.golangprograms.com/regular-expression-to-get-a-string-between-parentheses-in-golang.html
+/* THIS EXTRACTS THE WORK'S NAME */
+// a := `yo ablsf
+// sfjksj <ol>
+// <li><a href="go here">ようこそ</a></li>
+// <li><a href="go there">よ</a></li>
+// <li><a href="go over there">そ</a></li>
+// </ol>
+// <h2>HERE WE GO</h2>`
+// re := regexp.MustCompile(`\">.*?\<`)
+// res := re.FindAllString(a, -1)
+// for _, v := range res {
+// 	nv := strings.Trim(v, "\">")
+// 	nv = strings.Trim(nv, "<")
+// 	fmt.Println(nv)
+// }
