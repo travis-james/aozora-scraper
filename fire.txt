@@ -1,0 +1,1518 @@
+英語対訳版
+種田山頭火句集
+『草木塔抄』他
+FIRE ON THE MOUNTAIN
+The Selected Haiku of a Wandering Zen Monk
+Taneda Santoka
+英訳＝三浦久，ジェイムズ・グリーン
+Translated by Hisashi Miura and James Green
+-------------------------------------------------------------
+種田山頭火と『草木塔』について
+◆『草木塔』は，種田山頭火（1882－1940）の生涯を代表する句集である。初の句集『鉢の子』を刊行したのが，50歳のとき。『草木塔』は続く同題の第二句集『草木塔』を含む６つの句集を晩年にいたって集大成したもので，山頭火の死の年，1940年に東京八雲書林から発行された。山頭火57歳の４月のことである。
+◆山頭火，本名種田正一は，山口県佐波郡（現防府市）生まれ。母の自死や家の破産など波乱多き生涯を送り，1925年，43歳のときに出家得度。以後，乞食僧として日本各地を放浪した人である。『草木塔』におさめられた句はそれ以後につくられたもので，句作の師である荻原井泉水の薫陶を受けて，いわゆる自由律の俳句にそれまでにない新しい境地を開いた。彼の句によって，俳句は近代人の内面の奥深い声から生まれた「うた」となった。
+◆原本『草木塔』には701の句がおさめられているが、この青空文庫版『草木塔・抄』にはうち150句を，さらに『草木塔』以後の作品である24句を収録した。これは，より優れた作品を精選するという意図からではなく，英訳成立の事情とからんでいる。
+◆すでに青空文庫に登録されている完全版『草木塔』や他の句集とは異なり，『草木塔・抄』の内容は２つの部分から構成されている。原句と英訳である。このうち、原句は筑摩文庫版『山頭火句集』を底本とし，これに掲載されていない句については春陽堂山頭火文庫版『句集（四）』を参照した。
+
+英訳について
+◆英訳は，二人の訳者，三浦久とジェイムズ・グリーンが1974年に訳出したタイプ原稿を新たに入力したものである。英訳の企図は，1973年，アメリカで大学生活を送った三浦の学友であり，卒業後に禅僧となって来日したグリーン（彼の修行仲間には作家・歌手のレナード・コーエンがいる）との会話の中から生まれた。完成後，二人はこれをアメリカで出版する計画だったという。
+◆しかしながら，さまざまな事情あって，出版は実現しなかった。それから24年の月日が経過する間に，当初は265句あった英訳原稿も散逸し，残った174句が今回はじめて公開されることになった。
+◆英語ではhaikuと表記される俳句は，日本人一般が思っている以上に海外で広く親しまれている。海外では翻訳句集も数多く発行されており，山頭火の作品も相当数紹介されている。
+◆しかし，翻訳に「絶対」はない。まして，世界で最も短い詩の形式である俳句においては，多種多様な翻訳が可能であることは，例えば芭蕉の句「古池や蛙飛びこむ水の音」のおびただしい外国語訳を見てもあきらかだろう。三浦・グリーンによる訳が，山頭火作品の新しい翻訳につながることを願う。
+
+-------------------------------------------------------------
+About Taneda Santoka and his Somokuto
+    Somokuto (A Grass and Tree Pagoda) is the most important book
+of haiku by Taneda Santoka (1882-1940). It was published by
+Yagumo Shorin of Tokyo in April,1940, about six months before he
+passed away at the age of 57. It is a compilation of six
+booklets of haiku privately published by Santoka, the first one
+being Hachinoko published in 1932 and the second one entitled
+Somokuto published in 1933.
+    Santoka, whose real name was Taneda Shoichi, was born in a village in Yamaguchi Prefecture (present-day Hofu city). When he was young his life was full of such tribulations as his mother's suicide and his family's bankruptcy.In 1925, at the age of 43, he became an ordained Soto Zen monk. From then on he travelled all over Japan as a mendicant monk, writing haiku. The haiku included in Somokuto were written after he became a Zen monk. He opened up a new field of writing free-style haiku under the tutelage of Ogiwara Seisensui. It could be even said that thanks to Santoka haiku became "songs" born from the depths of the minds of modern men.
+    Though in the original Somokuto there are 701 haiku, we put in this Aozora Bunko version 150 poems from Somokuto and 24 written after Somokuto.
+    Differing from the complete Somokuto and other haiku books already registered in Aozora Bunko, this "Selected Haiku from Somokuto" has two parts ; the original haiku in Japanese and its English translation. The source book for the original haiku is Collected Haiku of Santoka published by Chikuma Shobo.The haiku not found in this book are from Haiku (IV）published by Shunyodo Santoka Bunko.　
+
+About the English Translation
+    The English translation of these haiku by Santoka was done in 1974 by Hisashi Miura and James Green. They were schoolmates in the late 60s at the University of California Santa Barabara, majoring in Religious Studies.In 1973, in order to study Zen in Japan (after studying at Mt. Baldy Zen Center near Los Angeles alongside Leonard Cohen), James Green came to Kyoto where Hisashi was living and they started working on the translation.They had hoped to publish it in the States, but it never materialized.
+    24 years later Satoru Hamano heard of the existence of the translation and decided to put it in Aozora Bunko. He hopes that their translation will inspire other people to translate Santoka's haiku, so that the understanding of Santoka may be deepened. Haiku, the shortest form of poetry, can be interpreted in many ways, which can be easily seen by the sheer number of translations for Basho's famous haiku about a frog jumping into an old pond.
+
+-------------------------------------------------------------
+『草木塔』より
+From Somokuto
+
+
+若うして死をいそぎたまへる
+母上の霊前に
+本書を供へまつる
+
+"I dedicate this book before the soul of my mother who hurried to die while still young." 
+
+
+　大正十四年二月、いよいよ出家得度して肥後の片田舎なる味取観音堂守となつたが、それはまことに山林独住の、しづかといへばしづかな、さびしいと思へばさびしい生活であつた。
+松はみな枝垂れて南無観世音
+
+    In February of 1929 I received ordination as a monk and became resident priest at Mitori Kannon-do in the countryside of Kumamoto Prefecture. It was truly a 'solitary forest life' (sanrin dokuju) ; as for quietness it was quiet, as for loneliness it was lonely -- such a life it was. 
+All the pines, 
+With hanging branches,
+Chant Namu Kanzeon. 
+
+* Namu Kanzeon means "Hail, Kannon" who is the Bodhisattva of mercy and compassion. This phrase occurs in many sutras (e.g. Kannon-gyo) that Santoka chanted every day as part of his daily life as a monk. 
+
+
+松風に明け暮れの鐘撞いて
+
+Morning and evening, 
+Striking the temple bell, 
+Wind in the pines. 
+
+
+ひさしぶりに掃く垣根の花が咲いてゐる
+
+Sweeping, 
+After long neglect, 
+Hedge-flowers blooming. 
+
+
+　大正十五年四月、解くすべもない惑ひを背負うて、行乞流転の旅に出た。
+分け入つても分け入つても青い山
+
+    April of 1925, I started out on a mendicant journey with unsolvable delusions on my back. 
+Wading through, 
+And wading through, 
+Yet green mountains still. 
+
+
+しとどに濡れてこれは道しるべの石
+
+Thoroughly wet, 
+This is a stone signpost. 
+
+* In old Japan to show distance and direction to towns short stone signposts were used.
+
+
+炎天をいただいて乞ひ歩く
+
+Above my head -
+The burning summer sky, 
+Begging and walking. 
+
+
+　放哉居士の作に和して
+鴉啼いてわたしも一人
+
+    In unison with Hosai Koji's haiku: 
+The cawing of a crow -
+I also am alone. 
+
+* Hosai was a haiku poet who belonged to the same school of free haiku originated by Seisensui Ogiwara. Santoka and he knew of each other but never met. Hosai wrote many poems of his loneliness and the above poem is in unison with his famous haiku: 
+Even coughing -
+I am alone. 
+
+
+　生を明らめ死を明らむるは仏家一大事の因縁なり（修証義）
+生死の中の雪ふりしきる
+
+    "To resolve life and to resolve death are the most important Karma for a Buddhist" - Shushogi. 
+Amidst life and death, 
+Snow continues to fall. 
+
+* The Shushogi was an abridged text of the Shobo-genzo written by Dogen Zenji the founder of the Soto sect of Zen in Japan. 
+
+
+　昭和二年三年、或は山陽道、或は山陰道、或は四国九州をあてもなくさまよふ。
+踏みわける萩よすすきよ
+
+    1927-28, I drifted around Sanyo, Sanin, Shikoku, and Kyushu without purpose. 
+Parting with my steps -
+Bush clovers, 
+Pampas grass. 
+
+* Bush clovers and pampas grass are the plants of autumn. 
+
+
+この旅、果もない旅のつくつくぼうし
+
+This trip -
+An endless trip, 
+Tsu-ku-tsu-ku-boshi .
+
+* A tsukutsukuboshi is an insect related to the cicada or locust which chirps in a high and shrill trill. It chirps only during the twilight after sunset. It is a melancholic sound for Japanese people. 
+
+
+へうへうとして水を味ふ
+
+Free as the blowing wind -
+I taste the water. 
+
+*  "Free as the blowing wind" in the translation is 'hyohyo' in Japanese, which is difficult to render into English precisely. The character 'hyo' is composed of three elements meaning separately, the west, to show, and the wind. Together the feeling is a wind which shows the west, the west being the direction of peace and serenity. So the meaning is to be as carefree as a west wind. 
+
+
+落ちかかる月を観てゐるに一人
+
+Watching the setting moon,
+I am by myself.
+
+
+ひとりで蚊にくはれてゐる
+
+Alone,
+Being eaten by mosquitos.
+
+
+投げだしてまだ陽のある脚
+
+Sprawling for a rest,
+On my legs still -
+Sunlight.
+
+
+山の奥から繭負うて来た
+
+From mountain depths,
+Borne on my back -
+This cocoon!
+
+
+笠にとんぼをとまらせてあるく
+
+I walk -
+Letting perch on my kasa,
+A dragonfly.
+
+* A kasa is a large thatched bamboo hat worn by travelling Zen monks.
+
+
+まつすぐな道でさみしい
+
+Stretching ahead -
+The straight road,
+Loneliness.
+
+
+だまつて今日の草蛙穿く
+
+Putting on,
+Without a word,
+Today's straw-sandals.
+
+*  "Straw-sandals" in the translation is 'waraji' in Japanese, which are worn by travelling or begging Zen monks.
+
+
+ほろほろ酔うて木の葉ふる
+
+I am drunk,
+Mellowly,
+The leaves are falling.
+
+*  "Mellowly" in the translation is 'horohoro' in Japanese, which modifies both the drunkness and the way in which the leaves fall. Santoka used to say it's best to get drunk 'horohoro'. That is, not too much, but just mellow. However, he seldom stuck to this maxim.
+
+
+しぐるるや死なないでゐる
+
+It's drizzling,
+Here I am,
+Still alive.
+
+* Basho wrote a famous haiku at his death:
+Sick while travelling -
+My dreams on desolate fields,
+Running around.
+Sanotka also wrote the above haiku when he was gravely sick while travelling.
+
+
+張りかへた障子のなかの一人
+
+Within this room,
+Of freshly papered shoji,
+Alone.
+
+* Shoji are sliding doors of wooden lattice covered over with white rice paper. They, being fragile, are repapered at appropriate times. Hosai wrote a relevent haiku:
+Closing up the shoji -
+Filling the room with loneliness.
+
+
+水に影ある旅人である
+
+In the water, 
+A traveler's reflection -
+As I pass. 
+
+
+雪がふるふる雪見てをれば
+
+The snow, 
+As I watch, 
+Keeps falling and falling. 
+
+
+しぐるるやしぐるる山へ歩み入る
+
+Drizzling, 
+Into drizzling mountains, 
+I enter. 
+
+
+食べるだけはいただいた雨となり
+
+Begging -
+Receiving just enough to eat, 
+It began to rain. 
+
+
+生き残つたからだ掻いてゐる
+
+This body,
+Which has survived so long,
+I am scratching.
+
+
+　昭和四年も五年もまた歩き続けるより外なかつた。あなたこなたと九州地方を流浪したことである。
+また見ることもない山が遠ざかる
+注）「昭和四年も…」という前書は，この句に先立つ句「わかれきてつくつきぼうし」に添えられていたものである。句の理解のために「みた見ることもない…」の前に入れた。
+
+
+    In 1929-30 there was nothing I could do but continue travelling. I walked here and there in Kyushu. 
+This mountain, 
+Which I will never see again, 
+Becoming farther and farther away. 
+
+
+こほろぎに鳴かれてばかり
+
+With their sound, 
+Nothing but crickets 
+Deluging me. 
+
+
+れいろうとして水鳥はつるむ
+
+In the beautiful radiance, 
+Water birds, 
+Making love. 
+
+
+百舌鳥啼いて身の捨てどころなし
+
+The shrike's crying -
+For discarding my body, 
+There is no place. 
+
+* Although Santoka may not have been refering to it, there is a famous story about Kuya, a priest who taught the chanting of Buddha's name in the Kyoto area in the tenth century: when Kuya was living amongst the beggars in Kyoto a high-ranked priest named Senkan recognized him at the river side near Shijo Street (nowadays downtown Kyoto), Senkan asked Kuya, "How can I be saved after death?" Kuya answered, "How strange. I rather, should ask you such a question. I'm just a vagrant person who wanders around confusedly. I've never thought of such a thing." Senkan didn't give up, and very respectfully asked him again. Kuya said, "Just discard your body anywhere", and hurried off. 
+
+
+どうしようもないわたしが歩いてゐる
+
+Me -
+Helpless and good for nothing, 
+Walking . 
+
+
+ぶらさがつてゐる烏瓜は二つ
+
+From a vine -
+Dangling, 
+Two snake-gourds. 
+
+
+すすきのひかりさえぎるものなし
+
+The light, 
+Through the pampas grass, 
+There is no obstruction. 
+
+
+すべつてころんで山がひつそり
+
+I slipped and fell down -
+The mountain is silent. 
+
+
+けさもよい日の星一つ
+
+Early morning, 
+One star remaining, 
+It's a good day too. 
+
+
+つかれた脚へとんぼとまつた
+
+Coming to perch, 
+On my tired-out legs -
+A dragonfly. 
+
+
+捨てきれない荷物のおもさまへうしろ
+
+I can't discard it -
+My heavy pack, 
+In front and in back. 
+
+* When travelling, Zen monks have two bags. One hangs around the neck and rests on the chest; the other is on the back like a knapsack. 
+
+
+法衣こんなにやぶれて草の実
+
+My monk's robe like this! 
+Tattered, 
+Covered with grass seeds. 
+
+
+岩かげまさしく水が湧いてゐる
+
+Behind the boulder, 
+Water trickling, 
+Just as I thought. 
+
+* In Santoka's diary he says at one point, "Begging should be like the flowing clouds and like the flowing water. If I stay at a place for even a moment I become tangled up. My mind, be like water! My mind, be like sky!" He compared his good haiku to water, and hoped that their purity would come up to that of water. Not only because of its simple function as the most refreshing drink, water was a very special thing to Santoka. Water thus became the subject matter of many of his haiku. 
+
+
+ここに白髪を剃り落して去る
+
+At this place, 
+Shaving off my grey hair, 
+I leave. 
+
+
+秋となつた雑草にすわる
+
+It has become autumn -
+I sit in the weeds. 
+
+* The word 'weeds' occurs in Santoka's haiku very often. Not only does it refer to the actual weeds, but also sometimes to the confused weeds in his mind. Thus, Santoka had a special feeling for weeds. 
+
+
+年とれば故郷こひしいつくつくぼうし
+
+Growing old -
+Missing the old hometown, 
+Tsu-ku-tsu-ku-boshi. 
+
+
+それでよろしい落葉を掃く
+
+As they are, 
+Things are fine, 
+Sweeping fallen leaves. 
+
+
+しみじみ食べる飯ばかりの飯である
+
+Eating this rice-only meal, 
+Quietly, 
+Alone. 
+
+* "Quietly" in the translation is 'shimijimi' in Japanese, which is not possible to render precisely in English. Its feeling is being cold, alone, yet quietly and reverentially accepting the way things are. 
+
+
+酔うてこほろぎと寝てゐたよ
+
+Oh, I slept, 
+In drunkeness, 
+With this cricket.
+
+
+物乞ふ家もなくなり山には雲
+
+No more houses to beg from -
+Clouds on the mountain. 
+
+
+あるひは乞ふことをやめ山を観てゐる
+
+On certain days -
+Resting from my begging, 
+Gazing at the mountains. 
+
+
+　述懐
+笠も漏りだしたか
+
+    Expressing my sentiments: 
+What? 
+My kasa too, 
+Is leaking. 
+
+
+　昭和六年、熊本に落ちつくべく努めたけれど、どうしても落ちつけなかつた。
+またもや旅から旅へ旅しつづけるばかりである。
+　自嘲
+うしろすがたのしぐれてゆくか
+
+    In 1931, I tried hard to stay in Kumamoto but in vain, and couldn't help but travel here and there. 
+    Self-reflection:
+A vague shape from behind -
+Into the drizzle, 
+Disappearing. 
+
+* This poem among all of Santoka's haiku is the most difficult to translate accurately. The subject and object and figure-ground relationships are so merged that complete expression of the feeling-impact is impossible. 
+
+
+鉄鉢の中へも霰
+
+Into the begging bowl also -
+Hailstones. 
+
+* The teppatsu or begging bowl is held in front of the begging monk as he walks along chanting. The monk, traditionally, impartially accepts anything put into the bowl. 
+
+
+いつまで旅することの爪をきる
+
+Until when, 
+This traveling? 
+Clipping my toenails. 
+
+
+よい湯からよい月へ出た
+
+Coming out, 
+From a good bath -
+A fine moon. 
+
+
+* The sento or public bath is a particularly Japanese tradition. The bath water is very hot and invigorating, especially in the winter. 
+
+
+笠へぽつとり椿だつた
+
+Plop!
+On my kasa -
+A camellia. 
+
+
+いただいて足りて一人の箸をおく
+
+Eating and satisfied, 
+One man's chopsticks, 
+Are put down. 
+
+
+秋風の石を拾ふ
+
+Autumn wind -
+Picking up a stone. 
+
+
+雨ふるふるさとははだしであるく
+
+My hometown, 
+In falling rain -
+Walking barefoot. 
+
+* This and the following twelve haiku were written while living at Go-chu. Go-chu was the name of Santoka's hut in Ogori, Yamaguchi Prefecture, where he stayed when not travelling. The words 'Go-chu' come from a phrase of the Lotus Sutra which says "if even one man among these (many) chants the words 'Namu Kanzeon' they will all be safe". 'Go-chu ' means 'among these', Santoka being the one man. 
+In the early summer of 1933 Santoka dropped in at his hometown, but the house where he was born was gone. No relatives were living there except a married younger sister. Nobody recognized him as the son of the once wealthy Taneda family since he looked like a beggar-monk wearing a battered kasa and holding a begging bowl. Children followed him jeering, "Beggar, beggar". He stayed at his sister's house that night but it was apparent he was an unwelcome guest. Early the next morning she said, "Brother, please leave early before the neighbors get up. I don't want to hear people call you 'beggar'". Stepping outside, it was raining so he took off his straw sandals and, walking barefoot with tears in his eyes, he left town. 
+
+
+ゆふ空から柚子の一つをもらふ
+
+Receiving, 
+From the evening sky -
+One citron. 
+
+* "Citron" in the translation is 'yuzu' in Japanese, which is a small orange fruit with a very sweet fragrance. 
+
+
+茶の花のちるばかりちらしておく
+
+Letting the fall -
+As they fall, 
+The tea flowers. 
+
+
+月が昇つて何を待つでもなく
+
+The moon has risen -
+Not waiting for anything. 
+
+
+水音しんじつおちつきました
+
+Water sound -
+Just as it is, 
+I became serene. 
+
+
+雪空の最後の一つをもぐ
+
+The last fruit, 
+From the snowy-sky, 
+I pick. 
+
+* Citrons or persimmons are ripe from mid-November to the end of December. Although unmentioned it is supposed the fruit is a persimmon or citron. 
+
+
+其中雪ふる一人として火を焚く
+
+At Go-chu snow is falling -
+I am alone, 
+Tending a fire. 
+
+
+雪へ雪ふるしづけさにをる
+
+On snow, snow falling, 
+In this silence -
+I am. 
+
+
+雪ふる一人一人ゆく
+
+Each person, 
+Walking by himself, 
+Snow falling. 
+
+
+茶の木にかこまれそこはかとないくらし
+
+By tea bushes, 
+Surrounded -
+My simple daily life. 
+
+* Tea bushes grow to about three feet in height but are very bushy. 
+
+
+ぬいてもぬいても草の執着をぬく
+
+Pulling out and pulling out -
+Attachments of the weeds, 
+Pulling out. 
+
+
+すずめをどるやたんぽぽちるや
+
+Sparrows dancing -
+Dandelion flowers falling. 
+
+* This reminds us of famous haiku by Issa: 
+Come, 
+Play with me -
+Motherless sparrows. 
+
+
+もう明けさうな窓あけて青葉
+
+It will be dawn soon, 
+Opening the window -
+Green leaves. 
+
+
+けふもいちにち誰もこなかったほうたる
+
+Today again, 
+No one came, 
+Fireflies . 
+
+
+松風すずしく人も食べ馬も食べ
+
+A cool pine wind, 
+Man eating, 
+Horse eating. 
+
+* This and the next nine haiku were written around 1933. 
+
+
+何が何やらみんな咲いてゐる
+
+What they are -
+I don't know. 
+But they're all blooming. 
+
+
+あざみあざやかなあさのあめあがり
+
+The thistles -
+How vivid! 
+After the morning rain. 
+
+
+ひとりきいてゐてきつつき
+
+Alone, 
+Listening -
+A woodpecker. 
+
+
+雲がいそいでよい月にする
+
+The clouds, 
+Hurrying by, 
+Making a good moon. 
+
+
+いつも一人で赤とんぼ
+
+Always alone -
+A red dragonfly. 
+
+
+春風の鉢の子一つ
+
+Spring wind -
+One begging bowl. 
+
+
+わがままきままな旅の雨にはぬれてゆく
+
+Wet, 
+Yet walking in the rain, 
+This is a care-free journey. 
+
+
+　帰庵
+ひさびさもどれば筍によきによき
+
+    Returning home:
+Returning, 
+After a long time -
+Here and there bamboo shoots. 
+
+
+びつしより濡れて代掻く馬は叱られてばかり
+
+Soaking wet. 
+The plow-horse, 
+Always getting scolded. 
+
+
+笠をぬぎしみじみとぬれ
+
+Taking off my kasa, 
+Getting wet, 
+Satisfied within. 
+
+
+家を持たない秋がふかうなるばかり
+　行乞流転のはかなさであり独善孤調のわびしさである。私はあてもなく果もなくさまよひあるいてゐたが、人つひに孤ならず、欲しがつてゐた寝床はめぐまれた。
+　昭和七年九月二十日、私は故郷のほとりに私の其中庵を見つけて、そこに住むことが出来たのである。
+曼珠沙華咲いてここがわたしの寝るところ
+　私は酒が好きであり水もまた好きである。昨日までは酒が水よりも好きであつた。今日は酒が好きな程度に於て水も好きである。明日は水が酒よりも好きになるかも知れない。
+　「鉢の子」には酒のやうな句（その醇不醇は別として）が多かつた。「其中一人」と「行乞途上」には酒のやうな句、水のやうな句がチヤンポンになつてゐる。これからは水のやうな句が多いやうにと念じてゐる。淡如水－－それが私の境涯でなければならないから。（昭和八年十月十五日其中庵にて、山頭火）
+注）この文は，原本では「行乞途上」の章の末尾に置かれている。
+
+Not having a house -
+Only the deepening of autumn. 
+    This shows the emptiness of a life of begging and traveling as well as the loneliness of a self-righteous life of solitude. Though I've been drifting around here and there, now I 've been given a bed which I have longed for so long. 
+Manjushage are blooming, 
+This is where I sleep. 
+    I like sake and I like water too. I liked sake better than water till yesterday. Today I like water as much as sake. Tomorrow I might come to like water better than sake. In "Hachi no Ko" there were many haiku like sake (not regarding the degree of their purity) . In "Gochu Hitori" and in "Gyokotsu Tojo" there are haiku both like sake and like water. I hope there will be more haiku like water from now on. "Pure like water" I hope will be the state of my mind. 
+Santoka, Gochu-an 
+October 15, 1933. 
+
+* Manjushage are small red flowers that bloom in the fall. 
+
+
+日ざかりのお地蔵さまの顔がにこにこ
+
+In the sunshine, 
+The face of good old Jizo - 
+Smiling. 
+
+* Who's smiling? Jizo is a Bodhisattva who appears after the death of Shakamuni, and before the coming of the Future Buddha (Maitreya), to help people. In Japan Jizo is regarded mostly as the protector of children. Small shrines dedicated to Jizo, or simply statues of Jizo, are found by the roadside. 
+
+
+手がとどくいちじくのうれざま
+
+The figs within my reach -
+How ripe they are! 
+
+
+ふと子のことを百舌鳥が啼く
+
+Unexpectedly -
+Images of my son, 
+The shrikes's crying. 
+
+* Santoka did not like small children or babies. When he got a divorce from his wife he left his infant son as well. He was an irresponsible parent but this haiku shows there was some feeling that Santoka could not ignore. 
+
+
+山のあなたへお日さま見おくり御飯にする
+
+Over the mountains, 
+Seeing off the sun, 
+Now to eat!
+
+
+人を見送りひとりでかへるぬかるみ
+
+Seeing someone off, 
+On a muddy path -
+Coming back alone. 
+
+
+月夜、あるだけの米をとぐ
+
+A moonlit night -
+Washing what rice there is. 
+
+
+空のふかさは落葉しづんでゐる水
+
+Fallen leaves. 
+At the water's bottom, 
+The deep sky. 
+
+
+なんといふ空がなごやかな柚子の二つ三つ
+
+Ah, how peaceful the sky -
+With citron fruits, 
+Two or three. 
+
+
+ここにかうしてわたしおいてゐる冬夜
+
+Like this, 
+I am put here, 
+A winter night. 
+
+
+焚くだけの枯木はひろへた山が晴れてゐる
+
+Gathering kindling -
+Enough for a fire, 
+The mountains are clear. 
+
+
+雪のあかるさが家いつぱいのしづけさ
+
+Snow's radiance, 
+Filling the house -
+Stillness. 
+
+
+寝ざめ雪ふる、さびしがるではないが
+
+Waking from sleep -
+Snow falling, 
+I'm not usually lonely but. . . 
+
+
+ふくろうはふくろうでわたしはわたしでねむれない
+
+The owl on its part, 
+I on mine, 
+Not able to fall asleep. 
+
+
+　病みほほけて信濃より帰庵
+草や木や生きて戻つて茂つてゐる
+
+    Returning home from Shinshu with sickness: 
+Grasses and trees, 
+Have become rampant -
+Returning home alive. 
+
+* From Shinshu to his hut in Yamaguchi is around 700 miles. 
+
+
+病みて一人の朝がゆふべとなりゆく青葉
+
+Being sick -
+Lonely morning becoming night, 
+Green leaves. 
+
+
+影もはつきりと若葉
+
+The shadows, 
+Very clear -
+Young leaves. 
+
+
+うれしいこともかなしいことも草しげる
+
+Happy things, 
+Sad things also, 
+The weeds grow abundantly. 
+
+
+ひとりひつそり竹の子たけになる
+
+Quietly, by itself -
+The bamboo shoot, 
+Becomes bamboo. 
+
+
+炎天のはてもなく蟻の行列
+
+Under the burning sky -
+A procession of ants, 
+Without end. 
+
+
+いつでも死ねる草が咲いたり実つたり
+
+The weeds, 
+On which I can die anytime, 
+Some blooming, some bearing seeds. 
+
+
+日ざかり落ちる葉のいちまい
+
+In the bright sunlight, 
+One falling leaf. 
+
+
+草にも風が出てきた豆腐も冷えただろ
+
+In the grass, 
+Wind has started up -
+By now the tofu must be chilled. 
+
+* Tofu is a soft curd of cooked and compressed soybeans. Santoka liked tofu more than he would normally because he had bad teeth and it could be eaten easily. 
+
+
+秋風の、腹立ててゐるかまきりで
+
+In the autumn wind -
+It's an angry praying mantis. 
+
+
+　郵便屋さん
+たより持つてきて熟柿たべて行く
+
+    The mailman:
+He brought mail, 
+Ate a ripe persimmon, 
+And left. 
+
+* In many haiku that have not been translated here, Santoka mentions the mailman and mail which perhaps shows his longing for companionship. 
+
+
+ともかくも生かされてはゐる雑草の中
+
+Anyhow, 
+I'm being kept alive, 
+Amongst the weeds. 
+
+
+昼寝さめてどちらを見ても山
+
+Waking from a nap -
+Everywhere I look, 
+Mountains. 
+
+* The next eight poems were written around 1934. 
+
+
+よい宿でどちらも山で前は酒屋で
+
+A good inn -
+Mountains everywhere, 
+In front, a sake shop. 
+
+* Sake, as can be seen from many previous poems, had special meaning for Santoka. 
+
+
+すわれば風がある秋の雑草
+
+As I sit, 
+In the autumn weeds -
+There is a wind. 
+
+
+木の葉ふるふる鉢の子へも
+
+Falling leaves, 
+In my begging bowl,
+Falling also.  
+
+
+この道しかない春の雪ふる
+
+There is no other road -
+Spring snow falling. 
+
+
+けふはここまでの草鞋をぬぐ
+
+Today -
+As far as this, 
+Taking off my straw sandals. 
+
+
+乞ひあるく水音のどこまでも
+
+Walking and begging, 
+Everywhere, 
+Water sound. 
+
+
+山しづかなれば笠をぬぐ
+
+As the mountains are quiet -
+I take off my kasa. 
+
+
+　私はやうやく『存在の世界』にかへつて来て帰家穏座とでもいひたいここちがする。私は長い間さまようてゐた。からだがさまようてゐたばかりでなく、こころもさまようてゐた。在るべきものに苦しみ、在らずにはゐないものに悩まされてゐた。そしてやうやくにして、在るものにおちつくことができた。そこに私自身を見出したのである。
+　在るべきものも在らずにはゐないものもすべてが在るものの中に蔵されてゐる。在るものを知るときすべてを知るのである。私は在るべきものを捨てようとするのではない、在らずにはゐないものから逃れようとするのではない。『存在の世界』を再認識して再出発したい私の心がまへである。
+　うたふものの第一義はうたふそのことでなければならない。私は詩として私自身を表現しなければならない。それこそ私のつとめであり同時に私のねがひである。
+（昭和九年の秋、其中庵にて、山頭火）
+注）この文は，原本では「旅から旅へ」の章の末尾に置かれているものの一部分である。
+
+    I have returned to "the world of existence" after a long struggle and feel as if I have "come back to my own home sitting comfortably". I have drifted for a long time -- not only my body but my mind. I suffered from things that should exist, and was troubled by things that can not help but exist, and now finally I can be peaceful with things that exist. This is where I found myself. 
+    Both things that should exist and things that can not help but exist, are contained in things that exist. When one knows things that exist, he knows all things. I am not trying to abandon things that should exist, nor am I trying to escape from things that can not help but exist, this is the present attitude of me who wants to understand the "world of existence". 
+    The essential thing for one who writes poetry has to be writing poetry itself. I must express myself as poetry -- it is my duty as well as my hope. 
+    Santoka, Autumn 1934. 
+
+
+なんぼう考へてもおんなじことの落葉ふみあるく
+
+However hard I think -
+Still it's the same, 
+Walking on fallen leaves. 
+
+* The following twelve haiku were written around 1935. 
+
+
+悔いるこころに日が照り小鳥来て啼くか
+
+On my penitent mind -
+The sun shining, 
+And a small bird coming to chirp? 
+
+
+枯れゆく草のうつくしさにすわる
+
+On the beauty, 
+Of withering grasses -
+I sit. 
+
+
+枯木に鴉が、お正月もすみました
+
+In a withered tree, 
+A crow, 
+New Year's is over. 
+
+* New Year's is the biggest holiday of the year in Japan when all members of the family return home to celebrate together. A particularly melancholic time for Santoka. 
+
+
+ひとりたがやせばうたふなり
+
+Alone, 
+Hoeing, 
+Singing a song. 
+
+
+照れば鳴いて曇れば鳴いて山羊がいつぴき
+
+Bleating when it's sunny, 
+Bleating when it's cloudy, 
+A goat. 
+
+
+空へ若竹のなやみなし
+
+Into the sky, 
+A young bamboo -
+Without pain. 
+
+
+木かげは風がある旅人どうし
+
+
+In the tree's shade -
+A wind, 
+Travellers both. 
+
+
+死んでしまへば、雑草雨ふる
+
+When I'm dead and gone -
+Rain on the weeds. 
+
+* This haiku as well as the next two were written when Santoka was gravely ill. 
+
+
+死をまへに涼しい風
+
+Before death -
+A cool wind. 
+
+
+おもひおくことはないゆふべの芋の葉ひらひら
+
+No parting regrets -
+Evening potato leaves, 
+Fluttering in the wind. 
+
+* The Japanese potato or satoimo has large elephant-ear leaves on tall stalks. 
+
+
+　私は雑草的存在に過ぎないけれどそれで満ち足りてゐる。雑草は雑草として、生え伸び咲き実り、そして枯れてしまへばそれでよろしいのである。
+
+　或る時は澄み或る時は濁る。－－澄んだり濁つたりする私であるが、澄んでも濁つても、私にあつては一句一句の身心脱落であることに間違ひはない。
+
+　此の一年間に於いて私は十年老いたことを感じる。（十年間に一年しか老いなかつたこともあつたように）そして老来ますます惑ひの多いことを感じないではゐられない。かへりみて心の脆弱、句の貧困を恥ぢ入るばかりである。
+（昭和十年十二月二十日、遠い旅路をたどりつつ、山頭火）
+注）この文は，原本では「雑草風景」の章の末尾に置かれているものの一部分である。
+
+    I am nothing but a person like a weed, but I am content as I am. 
+It is alright for a weed to sprout, grow, and bloom, and finally wither as a weed. 
+    Sometimes I am lucid, sometimes I am muddy, but whether lucid or muddy it is without question a shinjin datsuraku ("falling away of body and mind") each time I write a haiku. 
+    I feel I have lived for ten years in one year this year (at one time I had felt I had lived for one year in ten years) , and I can't help but feel that the older I become, the more delusions I have. When I look back I just feel ashamed of the weakness of my mind and the poorness of my haiku. 
+    Santoka, December 20, 1935 travelling far from home. 
+
+
+　昭和十年十二月六日、庵中独座に堪へかねて旅立つ
+水に雲かげもおちつかせないものがある
+
+    December 6, 1935, I couldn't bear sitting alone in my hut so I started travelling. 
+
+In the water, 
+Clouds shadows -
+Restlessness there too. 
+
+* The next ten haiku were written in 1936. 
+
+
+たたずめば風わたる空のとほくとほく
+
+Pausing awhile, 
+Wind crossing the sky -
+Far, far away. 
+
+
+また一枚ぬぎすてる旅から旅
+
+Again, 
+One layer of clothes discarded. 
+From journey to journey. 
+
+
+　甲信国境
+行き暮れてなんとここらの水のうまさは
+
+    At the border between Koshu and Shinshu (Yamanashi Prefecture and Nagano Prefecture) : 
+Becoming dark on the way, 
+The water around here -
+How tasty. 
+
+
+のんびり尿する草の芽だらけ
+
+Casually taking a piss -
+Young weeds all over. 
+
+
+　自責
+酔いざめの風のかなしく吹きぬける
+
+    Self-blame: 
+Waking from a drunken sleep -
+A sad wind, 
+Blowing through. 
+
+* He had already returned to Go-chu from the long journey to Hiraizumi. 
+
+
+　自嘲
+影もぼそぼそ夜ふけのわたしがたべてゐる
+
+    Self-ridicule: 
+Shadows late at night -
+As I eat alone, 
+Making a little noise. 
+
+
+　自画像
+ぼろ着て着ぶくれておめでたい顔で
+
+    Self-portrait:
+In old rags, 
+Bundled up -
+Wearing a foolish face. 
+
+
+しみじみ生かされてゐることがほころび縫ふとき
+
+Being kept alive -
+Quietly alone, 
+As I patch my clothes. 
+
+
+春風の蓑虫ひよいとのぞいた
+
+In the spring wind, 
+A dangling caterpillar, 
+Peeps outside. 
+
+* If you have walked through a forest you have perhaps seen a small caterpillar dangling from a silk thread inside of a little bark - 'house'. This is the beast described here. This haiku is the second in a small book of haiku titled 'Kokan' or 'Cold and Alone' Santoka seems to see his experience of this reflected in the caterpillar. 
+
+
+風の中おのれを責めつつ歩く
+
+'Midst the wind -
+Reproaching myself, 
+Walking along. 
+
+
+ゆふべなごやかな親蜘蛛子蜘蛛
+
+Evening,
+Parent spider, child spiders -
+Happy together. 
+
+
+　母の四十七回忌
+うどん供へて、母よ、わたくしもいただきまする
+
+    Forty-seventh anniversary of my mother's death:
+Offering udon: 
+Mother, 
+I will eat it too. 
+
+* All the while Santoka travelled he carried with him the funeral tablet of his mother (a narrow wooden plaque about 6" to 8" long). The forty seventh anniversary of his mother's death was when he was fifty-seven years old (1938). He was bitterly poor having no rice or fruit which are usually offered at funeral anniversaries, but only some udon (noodles). 
+
+
+窓あけて窓いつぱいの春
+
+Opening the window -
+A windowful of Spring. 
+
+
+　自嘲
+初孫がうまれたさうな風鈴の鳴る
+
+    Self-ridicule:
+My first grandchild was born, 
+So I hear, 
+The wind-bell ringing. 
+
+
+葦の穂風の行きたい方へ行く
+
+The tops of the reeds, 
+Where the wind wants to go -
+Going. 
+
+
+どこからともなく雲が出て来て秋の雲
+
+From nowhere, 
+Clouds coming out -
+Autumn clouds. 
+
+
+ごろりと草に、ふんどしかわいた
+
+Like a log in the grass -
+As my fundoshi dried. 
+
+* Fundoshi is old style Japanese men's underwear. They are rather like a thick loincloth in appearance. 
+
+
+　老ルンペンと共に
+草をしいておべんたう分けて食べて右左
+
+    With an old hobo: 
+Flattening the grass -
+Eating a shared lunch, 
+Going our separete ways. 
+
+
+うまれた家はあとかたもないほうたる
+
+The house where I was born,
+There is no trace -
+Fireflies. 
+
+
+　孤寒といふ語は私としても好ましいとは思はないが、私はその語が表現する限界を彷徨してゐる。私は早くさういふ句境から抜け出したい。この関頭を透過しなければ、私の句作は無礙自在であり得ない。（孤高といふやうな言葉は多くの場合に於て夜郎自大のシノニムに過ぎない。）
+
+　私の祖母はずゐぶん長生したが、長生したがためにかへつて没落転々の憂目を見た。祖母はいつも『業やれ業やれ』と呟いてゐた。私もこのごろになつて、句作するとき（恥ずかしいことには酒を飲むときも同様に）『業だな業だな』と考へるやうになつた。祖母の業やれは悲しいあきらめであつたが、私の業だなは寂しい自覚である。私はその業を甘受してゐる。むしろその業を悦楽してゐる。
+（昭和十三年十月、其中庵にて、山頭火）
+注）この文は，原本では「旅心」という章の末尾に置かれているものの一部分である。
+
+    I don't think that even I Iike the words 'Kokan' (cold and alone), but I am existing in the world that is expressed by these words. I would like to get out of it as soon as possible. If I can't pass this barrier, my writing of haiku cannot be mugejizai ("free and without obstructions"). In many cases the word 'Koko' ('alone and dignified') is a synonym for an arrogant man. 
+    My grandmother lived long, but because she lived long she had the bitter experience of seeing the downfall and breaking up of the family. She used to whisper to herself, "It is Karma, it is Karma." And now these days when I write haiku or, I am ashamed to say, when I drink sake, I think to myself, "It is Karma, It is Karma." 
+My grandmother's saying, "It is Karma" was a sad resignation, but my saying, "It is Karma" is a lonely self-awareress. I am accepting this Karma; or, rather, I am enjoying it. 
+    Santoka, at Gochu-an October 1938. 
+
+
+寝床まで月を入れ寝るとする
+
+Letting the moon, 
+Into my bedroom -
+I'll go to sleep. 
+
+* The following five haiku were written in 1939. 
+
+
+　身辺整理
+焼いてしまへばこれだけの灰を風吹く
+
+    Putting my things in order:
+Burning it all up, 
+Only these ashes, 
+Blowing in the wind. 
+
+* Nine years before Santoka wrote a haiku: 
+Burning my old diary, 
+Ashes -
+Only this much? 
+
+
+啼いて鴉の、飛んで鴉の、おちつくところがない
+
+A crow, 
+Cawing and flying -
+No place to settle down. 
+
+
+　木曽の宿
+おちつけないふとんおもたく寝る
+
+  An inn in Kiso: 
+Feeling uneasy, 
+The futon is too heavy, 
+To fall asleep under. 
+
+* When he travelled Santoka usually stayed at cheap inns (as on this occasion), only sleeping outside when he had to (which was often). 
+A futon is a heavy quilt stuffed with cotton. 
+
+
+けふの暑さはたばこやにたばこがない
+
+How hot today! 
+In the shops, 
+No cigarettes. 
+
+
+
+　所詮は自分を知ることである。私は私の愚を守らう。
+（昭和十五年二月、御幸山麓一草庵にて、山頭火）
+注）この文は，原本の末尾に置かれているものの一部分である。
+
+    After all, it is to know myself. I will follow my stupidity. 
+    Santoka, at Isso-an February 1940. 
+
+-------------------------------------------------------------
+『草木塔』以後
+After Somokuto
+
+
+朝焼のうつくしさおわかれする
+
+In sunrise beauty, 
+Saying farewell. 
+
+
+秋空ただよふ雲の一人となる
+
+Autumn sky -
+Floating clouds, 
+Becoming alone. 
+
+
+　牧水の歌を誦して
+秋ただにふかうなるけふも旅ゆく
+
+    After reading Bokusui's tanka. 
+Autumn deepens -
+Today also, 
+Travelling . 
+
+* Bokusui died in the early twentieth century. The famous tanka (5-7-5-7-7) alluded to is: 
+If I cross -
+How many mountains and rivers, 
+When shall I reach, 
+The realm of no loneliness. 
+Today also travelling. 
+
+
+死をひしひしと水のうまさかな
+
+I feel death hemming me in -
+How good the water is!
+
+
+
+　十月廿八日九日
+　野宿
+まどろめばふるさとの夢の葦の葉ずれ
+
+    Sleeping outside,Oct. 28,29: 
+Dozing off -
+A hometown dream, 
+Reeds rustling. 
+
+
+いちにち物いはず波音
+
+All day -
+Without a word, 
+Waves crashing. 
+
+
+　昭和十四年臘月十五日、松山知友の厚情に甘え、縁に随うて、当分、或は一生、滞在することになつた。
+　一洵君におんぶされて（もとより肉身のことではない）道後の宿より御幸山の新居に移る。新居に高台ありて閑静、山もよく砂もきよく水もうまく、人もわるくないらしい。老漂泊者の私には分に過ぎた栖家である。よすぎるけれど、すなほに入れていただく。松山の風来居は山口のそれよりもうつくしく、そしてあたたかである。
+
+    On December 15, 1939, thanks to my friends in Matsuyama, and by following circumstances, I have decided to stay here for sometime or, perhaps, until I die. 
+    A good friend, Ichijun, carried me on his back from the inn
+in Dogo to this new house at the foot of Mikizan. This house is on a high ground and very quiet. The mountain is beautiful, the water tastes good, and people here seem to be nice. It is actually too good of a house for an old hobo. It is more than I deserve but I accepted it with thanks. This 'hobo's house' is more beautiful and warmer than that in Yamaguchi (Gochu-an). 
+
+
+　一洵君に
+おちついて死ねさうな草枯るる
+（死ぬることは生れることよりもむつかしいと、老来しみじみ感じないではゐられない）
+
+    To Ichijun
+The weeds, 
+On which I can die calmly, 
+Withering . 
+(As I grow older I cannot help feeling profoundly that it is more difficult to die than to be born. )
+
+* The following nineteen haiku were written up until his death in October of 1940 at age of 59. 
+
+
+山裾やすらかに歯のないくらしも
+
+At the mountain's foot -
+A peaceful, 
+Toothless life. 
+
+
+しぐるるや郵便やさん遠く来てくれた
+
+Drizzling -
+Kind enough to come so far, 
+The mailman. 
+
+
+
+　帰居
+こしかたゆくすえ雪あかりする
+
+    Returning to the hut:
+My past, 
+My future, 
+The snow's radiance. 
+
+
+枯れて濡れて草のうつくしさ、朝
+
+Withered and wet, 
+The weeds beauty, 
+Morning . 
+
+
+　或る日の一草庵は
+雨をためてバケツ一杯の今日は事足る
+
+    One day at Isso-an:
+Rain -
+Catching a bucketful, 
+Enough for today. 
+
+
+寝ころべば枯草の春匂ふ
+
+Lying down, 
+On the withered weeds, 
+Smelling spring. 
+
+
+開いてしづかに、ぽとりと落ちた
+
+It bloomed quietly -
+It fell with a plop. 
+
+
+　母の第四十九回忌
+たんぽぽちるやしきりにおもふ母の死のこと
+
+    49th anniversary of my mother's death. 
+Dandelion's falling -
+My mother's death, 
+The thing I'm incessantly thinking of. 
+
+
+けふはよいたよりがありさうな障子あけとく
+
+Today, 
+Feeling good mail will come, 
+Keeping the shoji open. 
+
+
+　わが庵は御幸山裾にうづくまり、お宮とお寺とにいだかれてゐる。
+　老いてはとかく物に倦みやすく、一人一草の簡素で事足る、所詮私の道は私の愚をつらぬくより外にはありえない。
+
+    My hut is at the foot of Mikizan, embraced by a shrine and a temple. 
+    As I tend to lose interest in things in my old age - 'one man-one weed' simplicity is sufficient. After all, my way is nothing but the way of following my stupidity to the end. 
+
+おちついて死ねさうな草萌ゆる
+
+The weeds, 
+On which I can die calmly, 
+Sprouting. 
+
+* 'One weed' is the name of Santoka's hut. 
+
+
+てふてふちらちら風に乗つた来た
+
+A fluttering butterfly, 
+Came riding on the wind. 
+
+
+なければないで、さくら咲きさくら散る
+
+Even if I have nothing-
+The cherry blossoms, 
+Bloom and fall. 
+
+* The cherry blossoms stay on the tree a very short time and a mere gust of wind can scatter them, thus they image the transiency of life for Japanese people. 
+
+
+天の川ま夜中の酔ひどれは踊る
+
+The Milky Way, 
+At midnight -
+A drunkard dances. 
+
+* Who is this drunkard? 
+
+
+　自省
+蝿を打ち蚊を打ち我を打つ
+
+    Self-reflection: 
+Swatting flies, 
+Swatting mosquitoes, 
+Swatting myself. 
+
+
+ゆう焼しづかなお釜を磨く
+
+Sunset, 
+Quietness , 
+Scrubbing the rice-pot. 
+
+
+夕立やお地蔵さんもわたしもずぶぬれ
+
+A passing rain, 
+Ojizo-san and I, 
+Both drenched. 
+
+* In summer there is what is called a yudachi. Even if the whole day there has been no clouds, at evening clouds suddenly form and there is a short hard rain. 
+
+
+焼かれる虫の香ひかんばしく
+
+A bug in the fire -
+An aromatic odor. 
+
+-------------------------------------------------------------
+英語対訳版
+種田山頭火句集
+『草木塔抄』他
+FIRE ON THE MOUNTAIN
+The Selected Haiku of a Wandering Zen Monk
+Taneda Santoka
+英訳＝三浦久，ジェイムズ・グリーン
+Translated by Hisashi Miura and James Green
+青空文庫公開：1998年５月
+Registered at Aozora Bunko in May 1998
