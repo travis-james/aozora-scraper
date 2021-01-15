@@ -15,19 +15,22 @@ import (
 * unzip -O shift-jis fire.zip
  */
 func main() {
+	// Go to author page.
 	resp, err := http.Get("https://www.aozora.gr.jp/index_pages/person20.html")
 	if err != nil {
 		panic(err)
 	}
 	defer resp.Body.Close()
 
-	img, err := os.Create("test3.html")
+	// Make a map of works, and their corresponding links.
+
+	zip, err := os.Create("blep.html")
 	if err != nil {
 		panic(err)
 	}
-	defer img.Close()
+	defer zip.Close()
 
-	b, err := io.Copy(img, resp.Body)
+	b, err := io.Copy(zip, resp.Body)
 	if err != nil {
 		panic(err)
 	}
