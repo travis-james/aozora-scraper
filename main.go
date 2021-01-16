@@ -39,20 +39,14 @@ func tokenize(body io.ReadCloser) {
 		if tokenType == html.StartTagToken {
 			// Get the token
 			token := tokenizer.Token()
-			if "ol" == token.Data {
-				for {
-					if tokenType
-				}
-
-
-
-
-				//the next token should be the page title
-				for tokenType = tokenizer.Next()
-				//just make sure it's actually a text token
+			if token.Data == "a" {
+				// Next token should be the content within the tag.
+				tokenType = tokenizer.Next()
+				// Make sure it's actually text.
 				if tokenType == html.TextToken {
 					//report the page title and break out of the loop
 					fmt.Println(tokenizer.Token().Data)
+					fmt.Println("TEST")
 				}
 			}
 		}
