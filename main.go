@@ -21,34 +21,23 @@ func fetchHTML(url string) io.ReadCloser {
 }
 
 func tokenize(body io.ReadCloser) {
-	tokenizer := html.NewTokenizer(body)
+	z := html.NewTokenizer(body)
 	for {
-		tokenType := tokenizer.Next()
-
-		// If an error token, it's the end of the file, stop computing.
-		if tokenType == html.ErrorToken {
-			err := tokenizer.Err()
-			if err == io.EOF {
-				break
-			}
-			// Otherwise the html is malformed, quit it.
-			log.Fatalf("error tokenizing HTML: %v", tokenizer.Err())
+		tt := z.Next()
+		if tt == html.ErrorToken {
+			return
 		}
 
-		// After the above checks, process the html.
-		if tokenType == html.StartTagToken {
-			// Get the token
-			token := tokenizer.Token()
-			if token.Data == "a" {
-				// Next token should be the content within the tag.
-				tokenType = tokenizer.Next()
-				// Make sure it's actually text.
-				if tokenType == html.TextToken {
-					//report the page title and break out of the loop
-					fmt.Println(tokenizer.Token().Data)
-					fmt.Println("TEST")
-				}
+		if tt == html.StartTagToken { // I'm looking for first occurence of <ol>
+			if z.Token().Data == "ol" {
+				z.Next()
+				z.Next()
+				z.Next()
+				z.Next()
+				fmt.Println(z.Token().Data)
+				fmt.Println("TEST")
 			}
+			return
 		}
 	}
 }
