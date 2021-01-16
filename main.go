@@ -26,9 +26,19 @@ func main() {
 	defer resp.Body.Close()
 
 	body := respToString(resp)
-	mymap := makeMap(body)
+
+	// Strip the OL tags.
+	bodyArr := strings.Split(body, "<ol>")
+	bodyArr = strings.Split(bodyArr[1], "</ol>")
+	// for i, v := range bodyArr {
+	// 	fmt.Println(i, v)
+	// }
+
+	mymap := makeMap(bodyArr[0])
+	i := 1
 	for k, v := range mymap {
-		fmt.Println(k, v)
+		fmt.Println(i, k, v)
+		i++
 	}
 
 	// zip, err := os.Create("blep.html")
@@ -68,6 +78,11 @@ func makeMap(ps string) map[string]string {
 	regL := regexp.MustCompile(`\".*?\"`)
 	resL := regL.FindAllString(ps, -1)
 	for i := 0; i < len(resWN); i++ {
+		// Sometimes there's an inline links to other people, ignore those links.
+		if strings.Contains(resL[i], "person") {
+			continue
+		}
+
 		wn := strings.Trim(resWN[i], "\">") // Get rid of tag elements.
 		wn = strings.Trim(wn, "</a>")
 
