@@ -29,15 +29,23 @@ func tokenize(body io.ReadCloser) {
 		}
 
 		if tt == html.StartTagToken { // I'm looking for first occurence of <ol>
-			if z.Token().Data == "ol" {
-				z.Next()
-				z.Next()
-				z.Next()
-				z.Next()
-				fmt.Println(z.Token().Data)
-				fmt.Println("TEST")
+			token := z.Token()
+			if token.Data == "ol" {
+				tt = z.Next() // Text, most likely '\n'.
+				tt = z.Next() // Start tag, <li>
+				tt = z.Next() // Start tag <a>
+				//tt = z.Next() // Is <a>THIS</a>
+				token = z.Token()
+				fmt.Println(token.Data)
+				ta := token.Attr
+				fmt.Println(len(ta))
+				fmt.Println(ta)
+				if len(ta) > 0 {
+					fmt.Println("EXISTS")
+					//fmt.Println(tn[0])
+				}
+				return
 			}
-			return
 		}
 	}
 }
