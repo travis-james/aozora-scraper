@@ -1,4 +1,4 @@
-package main
+package scraper
 
 import (
 	"fmt"
@@ -9,10 +9,8 @@ import (
 	"golang.org/x/net/html"
 )
 
-var site string = `https://www.aozora.gr.jp`
-
-// fetchHTML takes in a url and returns the responses body.
-func fetchHTML(url string) io.ReadCloser {
+// FetchHTML takes in a url and returns the responses body.
+func FetchHTML(url string) io.ReadCloser {
 	resp, err := http.Get(url)
 	if err != nil {
 		log.Fatalf("Error when fetching URL: %v\n", err)
@@ -20,7 +18,9 @@ func fetchHTML(url string) io.ReadCloser {
 	return resp.Body
 }
 
-func tokenize(body io.ReadCloser) map[string]string {
+// TokenizeAP takes a response body of an author's page then tokenizes it
+// to build a map of titles with their links.
+func TokenizeAP(body io.ReadCloser) map[string]string {
 	retval := make(map[string]string)
 	z := html.NewTokenizer(body)
 	for {
@@ -37,25 +37,13 @@ func tokenize(body io.ReadCloser) map[string]string {
 					for tt != html.StartTagToken || token.Data != "a" {
 						tt = z.Next()
 						token = z.Token()
+						// If the closing </ol> tag is found, we're done, return.
 						if tt == html.EndTagToken && token.Data == "ol" {
 							fmt.Println(token.Data)
 							return retval
 						}
 					}
-					// tt = z.Next() // Text, most likely '\n'.
-					// tt = z.Next() // Start tag, <li>
-					// tt = z.Next() // Start tag <a>
-					// //tt = z.Next() // Is <a>THIS</a>
-					// token = z.Token()
-
-					// if token.Data == "a" {
-					// 	fmt.Println(token.Data)
-					// }
-					// ta := token.Attr
-					// fmt.Println(ta)
-					// return
-
-					// Get the link first.
+					// Get the link first. <a href=....
 					link := token.Attr
 					// Now move onto get the name of the work, <a>TITLE</a>.
 					tt = z.Next()
@@ -68,21 +56,7 @@ func tokenize(body io.ReadCloser) map[string]string {
 						}
 					}
 				}
-
 			}
 		}
-	}
-}
-
-func main() {
-	// Go to author page and get the HTML response.
-	body := fetchHTML("https://www.aozora.gr.jp/index_pages/person20.html")
-	defer body.Close()
-
-	mm := tokenize(body)
-	i := 1
-	for key, val := range mm {
-		fmt.Println(i, key, val)
-		i++
 	}
 }
