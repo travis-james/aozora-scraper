@@ -13,9 +13,10 @@ func main() {
 
 	// Tokenize the author page.
 	mm := scraper.ParseAP(body)
-	i := 1
-	for key, val := range mm {
-		fmt.Println(i, key, val)
-		i++
+
+	for _, val := range mm {
+		body = scraper.FetchHTML(val)
+		fmt.Println(scraper.GetZipLink(body, val))
+		break
 	}
 }

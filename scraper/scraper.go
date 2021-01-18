@@ -1,7 +1,6 @@
 package scraper
 
 import (
-	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -37,13 +36,13 @@ func ParseAP(body io.ReadCloser) map[string]string {
 			token := z.Token()
 			if token.Data == "ol" {
 				for { // Inside <ol></ol>
-					// Find me all <a>
+					// I want to record all <a href=""></a> so begin by finding
+					// individual <a>
 					for tt != html.StartTagToken || token.Data != "a" {
 						tt = z.Next()
 						token = z.Token()
 						// If the closing </ol> tag is found, we're done, return.
 						if tt == html.EndTagToken && token.Data == "ol" {
-							fmt.Println(token.Data)
 							return retval
 						}
 					}
@@ -64,6 +63,33 @@ func ParseAP(body io.ReadCloser) map[string]string {
 								retval[title] = wl
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// GetZipLink takes a response from a url, and parses the HTML elements
+// to find the zip link for the author's work. The url to the zip is
+// returned as a string. The 'url' parameter is used to build the returned
+// url.
+func GetZipLink(body io.ReadCloser, url string) string {
+	z := html.NewTokenizer(body)
+	for {
+		tt := z.Next()
+		if tt == html.ErrorToken {
+			log.Fatal("GetZipLink failure in parsing HTML.")
+		}
+		// I'm looking for <a>
+		if tt == html.StartTagToken {
+			token := z.Token()
+			if token.Data == "a" {
+				link := token.Attr
+				if len(link) > 0 {
+					if link[0].Key == "href" {
+						zl := link[0].Val
+						return zl
 					}
 				}
 			}
