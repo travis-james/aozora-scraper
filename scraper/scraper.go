@@ -70,11 +70,11 @@ func ParseAP(body io.ReadCloser) map[string]string {
 	}
 }
 
-// GetZipLink takes a response from a url, and parses the HTML elements
+// GetZipLink takes a response (body) from a url, and parses the HTML elements
 // to find the zip link for the author's work. The url to the zip is
-// returned as a string. The 'url' parameter is used to build the returned
+// returned as a string. The baseURL parameter is used to build the returned
 // url.
-func GetZipLink(body io.ReadCloser, url string) string {
+func GetZipLink(body io.ReadCloser, baseURL string) string {
 	z := html.NewTokenizer(body)
 	for {
 		tt := z.Next()
@@ -89,7 +89,15 @@ func GetZipLink(body io.ReadCloser, url string) string {
 				if len(link) > 0 {
 					if link[0].Key == "href" {
 						zl := link[0].Val
-						return zl
+						if strings.Contains(zl, "zip") {
+							zl = strings.TrimLeft(zl, "./")
+							bURL := strings.Split(baseURL, "/")
+							// Hideous way of doing things, but it works. I just want to remove the /cardxxx.html
+							// part at the end from https://www.aozora.gr.jp/cards/000020/cardxxx.html
+							// and put the zl at the end.
+							url := bURL[0] + "//" + bURL[2] + "/" + bURL[3] + "/" + bURL[4] + "/" + zl
+							return url
+						}
 					}
 				}
 			}
