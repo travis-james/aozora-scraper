@@ -4,6 +4,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 
 	"golang.org/x/net/html"
@@ -103,4 +104,29 @@ func GetZipLink(body io.ReadCloser, baseURL string) string {
 			}
 		}
 	}
+}
+
+// DownloadFile takes a url and saves the response to filepath.
+// Returns a nil error on success.
+// This is from: https://golangcode.com/download-a-file-from-a-url/
+// I google'd how to download a file in Golang, and this is exactly
+// what I needed :)
+func DownloadFile(filepath string, url string) error {
+	// Get the data
+	resp, err := http.Get(url)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	// Create the file
+	out, err := os.Create(filepath)
+	if err != nil {
+		return err
+	}
+	defer out.Close()
+
+	// Write the body to file
+	_, err = io.Copy(out, resp.Body)
+	return err
 }
