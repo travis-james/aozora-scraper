@@ -133,12 +133,14 @@ func DownloadWorks(dn string, ml map[string]string) error {
 	wg.Add(len(ml))
 	c := make(chan error)
 	retval := ""
+
 	for key, val := range ml {
 		go func(key, val string) {
 			// Get the response from a single work's link.
 			resp, err := http.Get(val)
 			if err != nil {
 				c <- err
+				wg.Done()
 				return
 			}
 
@@ -147,6 +149,7 @@ func DownloadWorks(dn string, ml map[string]string) error {
 			resp.Body.Close()
 			if err != nil {
 				c <- err
+				wg.Done()
 				return
 			}
 
@@ -154,19 +157,22 @@ func DownloadWorks(dn string, ml map[string]string) error {
 			err = DownloadFile(fn, zl)
 			if err != nil {
 				c <- err
+				wg.Done()
 				return
 			}
-			c <- nil
 			wg.Done()
 		}(key, val)
 	}
 
+	// Using a go func nothing works, not using one hangs up forever.
+	//go func() {
 	cherr := <-c
 	if cherr != nil {
 		retval += "Error : " + cherr.Error() + "\n"
 	}
 	wg.Wait()
 	close(c)
+	//}()
 
 	if len(retval) != 0 {
 		return errors.New(retval)
