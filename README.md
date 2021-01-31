@@ -22,7 +22,7 @@ go run ./cmd -ap=https://www.aozora.gr.jp/index_pages/person35.html -dn=osamu
 - All links to works on an author page start with "../cards" and therefore all links of a given
 work are:
 https://www.aozora.gr.jp + "/cards"
-- This only downloads works that are zip files (which have a .txt file inside of the work), if no zip file is
+- This program only downloads works that are zip files (which have a .txt file inside of the work), if no zip file is
 found, the program will return an error.
-- I've tested this on about 5 author's web pages. It is possible there are other authors' pages that have
-HTML that don't conform to how the program tokenizes web pages.
+- I've tested this on about 5 authors' web pages. It is possible there are other authors' pages that have
+HTML that don't conform to how this program tokenizes web pages.
