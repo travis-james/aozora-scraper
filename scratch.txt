@@ -56,7 +56,6 @@ func DownloadWorks(dn string, ml map[string]string) error {
 // a map of links (ml). On each link, it downloads the file and saves it to the
 // provided dn.
 func DownloadWorks(dn string, ml map[string]string) error {
-	//i := 0
 	for key, val := range ml {
 		// Get the response from a single work's link.
 		resp, err := http.Get(val)
@@ -72,10 +71,6 @@ func DownloadWorks(dn string, ml map[string]string) error {
 		if err != nil {
 			return err
 		}
-		// if i == 1 {
-		// 	break
-		// }
-		// i++
 	}
 	return nil
 }
