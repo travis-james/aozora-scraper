@@ -133,7 +133,8 @@ func DownloadWorks(dn string, ml map[string]string) error {
 	wg.Add(len(ml))
 	c := make(chan error)
 	retval := ""
-
+	ml["b"] = "adf"
+	ml["c"] = "fff"
 	for key, val := range ml {
 		go func(key, val string) {
 			// Get the response from a single work's link.
@@ -163,16 +164,12 @@ func DownloadWorks(dn string, ml map[string]string) error {
 			wg.Done()
 		}(key, val)
 	}
-
-	// Using a go func nothing works, not using one hangs up forever.
-	//go func() {
+	close(c)
 	cherr := <-c
 	if cherr != nil {
 		retval += "Error : " + cherr.Error() + "\n"
 	}
 	wg.Wait()
-	close(c)
-	//}()
 
 	if len(retval) != 0 {
 		return errors.New(retval)
