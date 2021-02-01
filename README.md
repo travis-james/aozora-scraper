@@ -1,9 +1,10 @@
 # aozora-scraper
-This is a small concurrent webscraper that downloads all works of a single author from https://www.aozora.gr.jp/
+This is a small concurrent webscraper that downloads all works of an author from https://www.aozora.gr.jp/
 
 ## !! WARNING !!
-This was created for the intent of how to use go routines. If you use this program, do NOT use it maliciously.
-Excessive requests could possibly result in your IP being blacklisted.
+This program was created so that I could learn a bit about go routines. If you use this program, do NOT use it 
+maliciously or irresponsibly. Excessive requests could put unneccessary burden on the receiving website, and 
+possibly get you in trouble. Be kind and responsible.
 
 ## How to use this program
 It has the following command line flags:
@@ -19,10 +20,7 @@ go run ./cmd -ap=https://www.aozora.gr.jp/index_pages/person35.html -dn=osamu
 
 ### Assumptions
 - As already stated, the provided link must be of the form https://www.aozora.gr.jp/index_pages/personxx.html
-- All links to works on an author page start with "../cards" and therefore all links of a given
-work are:
-https://www.aozora.gr.jp + "/cards"
-- This program only downloads works that are zip files (which have a .txt file inside of the work), if no zip file is
+- This program only downloads works that are zip files (which have a .txt file inside of the zip), if no zip file is
 found, the program will return an error.
 - I've tested this on about 5 authors' web pages. It is possible there are other authors' pages that have
 HTML that don't conform to how this program tokenizes web pages.
