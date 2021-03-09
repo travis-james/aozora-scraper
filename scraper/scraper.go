@@ -122,36 +122,33 @@ func DownloadFile(fn string, url string) error {
 	return err
 }
 
-// DownloadWorks takes a directory name, such as "works" then iterates through
-// a map of links (ml). On each link, it downloads the file and saves it to the
-// provided dn.
-// If an error occurs, it will be appended to a string that is formatted into an
-// error so that the user may know if it was a specific link that went awry.
-func DownloadWorks(dn string, ml map[string]string) error {
-	chFailedUrls := make(chan string)
-	chIsFinished := make(chan bool)
-	for key, val := range ml {
-		// Get the response from a single work's link.
-		resp, err := http.Get(val)
-		if err != nil {
+// DownloadWorks takes a directory name (dn), the title of a work, then a link for that work.
+// Two channels are passed: chIsFinished to keep track of when a routine finishes.
+// chFailed allows passing of strings to give an error and the title of the work that failed.
+func DownloadWorks(dn string, title, link string, chFailed chan string, chIsFinished chan bool) {
+	defer func() {
+		chIsFinished <- true
+	}() // Signal channel is done on exit.
 
-			return err
-		}
-
-		// Then on that web page, find the link to the zip of the work.
-		zl, err := GetZipLink(resp.Body, val)
-		resp.Body.Close()
-		if err != nil {
-
-			return err
-		}
-
-		fn := dn + "/" + key + ".zip"
-		err = DownloadFile(fn, zl)
-		if err != nil {
-			return err
-		}
+	// Get the response from a single work's link.
+	resp, err := http.Get(link)
+	if err != nil {
+		chFailed <- title + " : " + err.Error()
+		return
 	}
 
-	return nil
+	// Then on that web page, find the link to the zip of the work.
+	zl, err := GetZipLink(resp.Body, link)
+	resp.Body.Close()
+	if err != nil {
+		chFailed <- title + " : " + err.Error()
+		return
+	}
+
+	fn := dn + "/" + title + ".zip"
+	err = DownloadFile(fn, zl)
+	if err != nil {
+		chFailed <- title + " : " + err.Error()
+		return
+	}
 }

@@ -23,6 +23,7 @@ go run ./cmd -ap=https://www.aozora.gr.jp/index_pages/person35.html -dn=osamu
 work are:
 https://www.aozora.gr.jp + "/cards"
 - This program only downloads works that are zip files (which have a .txt file inside of the work), if no zip file is
-found, the program will return an error.
+found, the program will return an error. Some works only have a pdf or html link rather than a zip, in that case this
+program returns an error.
 - I've tested this on about 5 authors' web pages. It is possible there are other authors' pages that have
 HTML that don't conform to how this program tokenizes web pages.

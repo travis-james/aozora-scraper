@@ -3,6 +3,7 @@ package main
 import (
 	"AozoraScraper/scraper"
 	"flag"
+	"fmt"
 	"net/http"
 	"os"
 )
@@ -31,10 +32,26 @@ func main() {
 		panic(err)
 	}
 
+	// Followed the concurrency model found here: https://juliensalinas.com/en/how-to-speed-up-web-scraping-with-go-golang-concurrency/
+	chFailed := make(chan string)
+	chIsFinished := make(chan bool)
+
 	// Now download all the zips from that map of links and save to the provided
 	// directory name.
-	err = scraper.DownloadWorks(*dn, mm)
-	if err != nil {
-		panic(err)
+	for title, link := range mm {
+		go scraper.DownloadWorks(*dn, title, link, chFailed, chIsFinished)
 	}
+	failedTitles := make([]string, 0)
+	for i := 0; i < len(mm); {
+		select {
+		case title := <-chFailed:
+			failedTitles = append(failedTitles, title)
+		case <-chIsFinished:
+			i++
+		}
+	}
+	if len(failedTitles) > 0 {
+		fmt.Println("The following failed.... ", failedTitles)
+	}
+	fmt.Println("Program finished.")
 }
