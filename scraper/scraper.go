@@ -6,7 +6,6 @@ import (
 	"net/http"
 	"os"
 	"strings"
-	"sync"
 
 	"golang.org/x/net/html"
 )
@@ -129,52 +128,30 @@ func DownloadFile(fn string, url string) error {
 // If an error occurs, it will be appended to a string that is formatted into an
 // error so that the user may know if it was a specific link that went awry.
 func DownloadWorks(dn string, ml map[string]string) error {
-	var wg sync.WaitGroup
-	wg.Add(len(ml))
-	c := make(chan error)
-	var retval string
-
-	// go routine for receiving and making a string of errors.
-	go func() {
-		for errors := range c {
-			retval += "Error : " + errors.Error() + "\n"
-		}
-	}()
-
+	chFailedUrls := make(chan string)
+	chIsFinished := make(chan bool)
 	for key, val := range ml {
-		go func(key, val string) {
-			// Get the response from a single work's link.
-			resp, err := http.Get(val)
-			if err != nil {
-				c <- err
-				wg.Done()
-				return
-			}
+		// Get the response from a single work's link.
+		resp, err := http.Get(val)
+		if err != nil {
 
-			// Then on that web page, find the link to the zip of the work.
-			zl, err := GetZipLink(resp.Body, val)
-			resp.Body.Close()
-			if err != nil {
-				c <- err
-				wg.Done()
-				return
-			}
+			return err
+		}
 
-			fn := dn + "/" + key + ".zip"
-			err = DownloadFile(fn, zl)
-			if err != nil {
-				c <- err
-				return
-			}
-			wg.Done()
-		}(key, val)
+		// Then on that web page, find the link to the zip of the work.
+		zl, err := GetZipLink(resp.Body, val)
+		resp.Body.Close()
+		if err != nil {
+
+			return err
+		}
+
+		fn := dn + "/" + key + ".zip"
+		err = DownloadFile(fn, zl)
+		if err != nil {
+			return err
+		}
 	}
 
-	wg.Wait()
-	close(c)
-
-	if len(retval) != 0 {
-		return errors.New(retval)
-	}
 	return nil
 }
