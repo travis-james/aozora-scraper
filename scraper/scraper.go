@@ -125,7 +125,7 @@ func DownloadFile(fn string, url string) error {
 // DownloadWorks takes a directory name (dn), the title of a work, then a link for that work.
 // Two channels are passed: chIsFinished to keep track of when a routine finishes.
 // chFailed allows passing of strings to give an error and the title of the work that failed.
-func DownloadWorks(dn string, title, link string, chFailed chan string, chIsFinished chan bool) {
+func DownloadWorks(dn, title, link string, chFailed chan string, chIsFinished chan bool) {
 	defer func() {
 		chIsFinished <- true
 	}() // Signal channel is done on exit.
