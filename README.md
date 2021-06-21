@@ -16,7 +16,7 @@ An example of how one would run it:
 go run ./cmd -ap=https://www.aozora.gr.jp/index_pages/person35.html -dn=osamu
 ```
 
-## Why did you make this?
+## Why did I make this?
 I wanted to learn more about web scraping, Go routines, and concurrency.
 
 ### Assumptions
